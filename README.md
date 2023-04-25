@@ -2,15 +2,15 @@
 ### Automação 
 
 - Cadastro de usuário
-    -- Página carregada
-    -- Campos para cadastro de usuário
-    -- Campos obrigatórios
-    -- Cadastro de usuário
-    -- Checagem de cadastro do usuário
-    -- Edição com dados inválidos do usuário
-    -- Edição com dados válidos do usuário
-    -- Exclusão do usuário
-    -- Checagem de exclusão do usuário
+	- Página carregada
+	- Campos para cadastro de usuário
+    - Campos obrigatórios
+    - Cadastro de usuário
+    - Checagem de cadastro do usuário
+    - Edição com dados inválidos do usuário
+    - Edição com dados válidos do usuário
+    - Exclusão do usuário
+    - Checagem de exclusão do usuário
 
 ## Antes de começar
  
