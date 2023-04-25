@@ -1,0 +1,26 @@
+{
+  "name": "qa-ticto",
+  "version": "1.0.0",
+  "description": "Teste Técnico - Analista QA",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Elizabeth Poliani Fidencio Nunes",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e",
+    "commonPath": "cypress/e2e/common",
+    "stepDefinitions": "cypress/e2e/path-to-step-definition/**/*.{js,ts}",
+    "nonGlobalStepDefinitions": true
+  }
+}
